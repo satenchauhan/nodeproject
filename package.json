@@ -1,0 +1,23 @@
+{
+  "name": "onequotenode",
+  "version": "1.0.0",
+  "description": "'Testing'",
+  "main": "app.js",
+  "scripts": {
+    "test": "run oq",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "'OneQuoteNode'"
+  ],
+  "author": "'Saten Chauhan'",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  }
+}

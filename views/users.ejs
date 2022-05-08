@@ -1,0 +1,10 @@
+
+
+<% if (data.length > 0) { %>
+    <% data.forEach((row)=>{ %>
+        <p> <%= row.uid %>  </p>
+        <p> <%= row.username %>  </p>
+        <p> <%= row.email %>  </p>
+        <p> <%= row.user_type%>  </p>
+        <p> <%= row.subscription_type %>  </p>
+<% }) } %>
